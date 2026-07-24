@@ -10,7 +10,8 @@
 # => Data types specifies the type of value a varaible holds. This is required in programming to do various operations without causing an error.
 # By default python provides these datatypes: 
 # 1. Numeric data: int, float, complex
-a = 3, b = 3.4
+a = 3
+b = 3.4
 # 2. Text data: str
 name = 'Ayush'
 # 3. Boolean data
