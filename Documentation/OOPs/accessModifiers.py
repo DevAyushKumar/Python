@@ -36,3 +36,7 @@ class MyClass:
 Obj1=MyClass()
 print(Obj1._private_attribute)
 print(Obj1._MyClass__mangled_attribute)
+
+'''Protected access modifiers:
+In Object - Oreinted programming (OOP), the term protected is used to describe a member (i.e a meathod or attribute)of a class that is intended to be accessed only by the class itself and its subclass. In Python, the convention for indicating that a member is protected is to prefix its name with a single underscore (_). For example, if a class has a meathod called _my_meathod, it is indicating that the meathod should only be accessed by the class itseld and its subclass. 
+It's important to note that the single underscore is just naming'''
