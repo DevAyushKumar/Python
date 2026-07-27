@@ -15,3 +15,4 @@ class student:
 obj = student("Ayush", 150)
 print(obj.name)
 print(obj.rollno)
+
