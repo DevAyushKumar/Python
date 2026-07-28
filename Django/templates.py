@@ -28,4 +28,20 @@ and for the things which are not common in them we need to create a {% block con
 
 go to https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template to get the bootstrap started template, copy everything from the head section of the website and paste it in the head section of the base.html, do the same with the scripts also.
 
-put the blog content inside a div tag and give it a class'''
+put the blog content inside a div tag and give it a class
+
+go to the https://github.com/CoreyMSchafer/code_snippets/blob/master/Django_Blog/snippets/navigation.html snipits folder and get the navigation.html code(it contians the code for the navigation bar) and add that code in the top of the body tag
+
+now we can remove the {% block content %} from the base.html file as we will copy and paste the main.html code from the https://github.com/CoreyMSchafer/code_snippets/blob/master/Django_Blog/snippets/main.html this snippit contains the block content that's why we need to remove it. 
+
+Now in the runapps folder create a new file name static and inside that folder create a folder name  blog and inside blog create a css file name, main.css 
+
+copy the code from the https://github.com/CoreyMSchafer/code_snippets/blob/master/Django_Blog/snippets/main.css snippit and paste it in the main.css folder 
+
+Now to load the static folder in the base.html folder write {% load static%} and in the head add <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}" to link the css file with the base.html 
+
+and now run the server, if its already running refresh the page, if still it does not shows it restart the server
+
+copy code from https://github.com/CoreyMSchafer/code_snippets/blob/master/Django_Blog/snippets/article.html and add it in the home.html inside the current for loop replacing the old h1 tags 
+
+In the base templates of the nativigation bar, we have hard coded the bars to replace it replace it with {% url 'blog-home' %} and {% url 'blog-about' %}, this is a good coading practice. '''
