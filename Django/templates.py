@@ -20,4 +20,12 @@ After that in the html files write the codes to show the output in the webpage.
 {% end for %}
 This is used to code in the html file to show the user data.
 
-'''
+We can create a base.html in the blog folder with the other html files, and now we can add the syntax which are common in both about and home html files
+
+To like all three files we need to add {% extends "blog/base.html" %}
+
+and for the things which are not common in them we need to create a {% block content %} and end with {% endblock %}, we need to add this in both from where we want to show out output and from where we want to take the input
+
+go to https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template to get the bootstrap started template, copy everything from the head section of the website and paste it in the head section of the base.html, do the same with the scripts also.
+
+put the blog content inside a div tag and give it a class'''
