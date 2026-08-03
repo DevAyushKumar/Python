@@ -1,0 +1,198 @@
+{
+  "personal_info": {
+    "full_name": "Praveen Kumar Singh",
+    "email": "spraveen593@gmail.com",
+    "phone": "+91-8299558807",
+    "location": "Bengaluru, India",
+    "linkedin": "https://www.linkedin.com/in/spraveenofficial/",
+    "github": "https://github.com/spraveenofficial",
+    "portfolio": null
+  },
+  "professional_summary": "Software Engineer specializing in Frontend and Full Stack Development with experience in building scalable web and mobile applications, including real-time systems and AI-driven tools. Proficient in ReactJS, NextJS, TypeScript, NodeJS, NestJS, Flutter, and AWS. Experienced in collaborating with international teams, particularly in Norway, and working in both full-time and remote roles within startups and tech companies.",
+  "work_experience": [
+    {
+      "company": "Idbook Hotels Pvt. Ltd.",
+      "position": "Software Engineer",
+      "location": "Bengaluru, India",
+      "start_date": "February 2025",
+      "end_date": "Present",
+      "is_current": true,
+      "responsibilities": [
+        "Revamped and modernized all customer-facing pages of the website using Next.js and Tailwind CSS, significantly improving performance and user experience.",
+        "Built Hotel Booking Module, handling real-time availability, pricing, and booking confirmation workflows.",
+        "Engineered the Admin Dashboard for internal staff to oversee operations, manage hotels, handle customer bookings, and monitor system health.",
+        "Implemented rate-limiting and throttling in Django backend, reducing server overload incidents by 60% and enhancing platform security.",
+        "Identified and resolved 30+ production-level bugs in both frontend and backend stacks, increasing system reliability and uptime to 99.9%."
+      ],
+      "achievements": [
+        "Reduced server overload incidents by 60%",
+        "Increased system reliability and uptime to 99.9%"
+      ]
+    },
+    {
+      "company": "Agent Mushroom",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "start_date": "April 2024",
+      "end_date": "January 2025",
+      "is_current": false,
+      "responsibilities": [
+        "Built an AI-driven Chrome and Figma plugin tool to automatically detect difference between Figma designs and developed web apps, ensuring pixel-perfect accuracy.",
+        "Orchestrated deployment pipelines using Github Actions for continuous integration and delivery, reducing update times.",
+        "Integrated Hugging Face LLMs and Google Gemini API to analyze UI discrepancies and suggest accurate fixes.",
+        "Engineered a real-time visual diff engine using canvas rendering and DOM snapshots to identify mismatches with over 95% detection accuracy."
+      ],
+      "achievements": [
+        "Achieved over 95% detection accuracy in design-to-code consistency"
+      ]
+    },
+    {
+      "company": "Ymir Labs Startup Studio",
+      "position": "Software Engineer",
+      "location": "Remote",
+      "start_date": "September 2022",
+      "end_date": "March 2024",
+      "is_current": false,
+      "responsibilities": [
+        "Built the complete architecture for Aeme (EdTech) using Next.js, TypeScript, SCSS and AWS services to achieve performance and security benchmarks.",
+        "Contributed to creating the company’s own component library using Storybook to decrease development team effort by 50%.",
+        "Developed the Investment Pitch Creation feature in the Flutter mobile app for Pitch40 using GetX.",
+        "Built the founder onboarding and investor matching web & mobile application for Pitch40 using Next.js, TypeScript, and Tailwind CSS.",
+        "Collaborated with cross-functional teams across Norway and India."
+      ],
+      "achievements": [
+        "Decreased development team effort by 50% via component library",
+        "Contributed to successful fundraising of 600M NOK for Pitch40"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Acharya Institute of Graduate Studies",
+      "degree": "Bachelor Of Computer Application",
+      "field_of_study": "Computer Applications",
+      "graduation_date": "August 2022",
+      "gpa": "7.9/10"
+    }
+  ],
+  "skills": {
+    "technical": [
+      "REST APIs",
+      "Microservices",
+      "Monolithic Architecture",
+      "CQRS",
+      "Websockets",
+      "Real-time Systems",
+      "AI Integration"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python (Django, FastAPI implied)"
+    ],
+    "frameworks": [
+      "ReactJS",
+      "NextJS",
+      "NestJS",
+      "NodeJS",
+      "ExpressJS",
+      "Flutter",
+      "Tailwind CSS",
+      "SCSS",
+      "MolecularJS",
+      "GetX",
+      "Storybook"
+    ],
+    "tools": [
+      "Docker",
+      "Git",
+      "Github",
+      "Jira",
+      "Postman",
+      "Bitbucket",
+      "Confluence",
+      "Github Actions",
+      "Jest",
+      "Jasmine",
+      "Chai",
+      "Hugging Face",
+      "Google Gemini API"
+    ],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL", "Redis", "TypeORM"],
+    "cloud_platforms": [
+      "AWS (EC2, S3, RDS, SES, Cognito, Cloudfront, Lambda, API Gateway)",
+      "Google Firebase"
+    ],
+    "soft_skills": [
+      "Cross-functional Collaboration",
+      "Problem Solving",
+      "Proactive Mindset",
+      "Remote Team Collaboration"
+    ]
+  },
+  "certifications": [],
+  "projects": [
+    {
+      "name": "Aurahire",
+      "description": "An AI-powered interview platform designed to streamline and automate the technical hiring process. Features intelligent candidate screening, automated interview scheduling, real-time coding assessments, and AI-driven feedback generation.",
+      "technologies": [
+        "AI",
+        "Real-time coding assessments",
+        "HR Tool Integration"
+      ],
+      "url": null
+    },
+    {
+      "name": "Talkline",
+      "description": "A mobile-responsive social media app with authentication using OTP verification with JWT tokens. Supports CRUD operations for posts (create, like, comment, bookmark, delete) and includes real-time chat functionality.",
+      "technologies": ["JWT", "OTP Verification", "Real-time Chat", "CRUD"],
+      "url": null
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    }
+  ],
+  "total_years_experience": 3,
+  "seniority_level": "mid",
+  "preferred_roles": [
+    "Software Engineer",
+    "Frontend Developer",
+    "Full Stack Developer"
+  ],
+  "application_enhancements": {
+    "elevator_pitch": "Full Stack Software Engineer specializing in React, Next.js, and Node.js with a proven track record of building scalable web and mobile applications for international startups. Expert in bridging design-to-code gaps with AI-driven tools and optimizing system performance, notably contributing to a 600M NOK fundraising success and reducing server overload by 60%.",
+    "cover_letter_template": "Dear Hiring Manager,\n\nI am writing to express my interest in the [Job Title] role at [Company Name]. As a Software Engineer with extensive experience in Full Stack development (React, Next.js, Node.js, NestJS) and a strong background in collaborating with international teams, particularly in Norway, I am eager to bring my technical expertise to your engineering team.\n\nIn my recent role at Idbook Hotels, I modernized customer-facing platforms using Next.js and Tailwind CSS, achieving 99.9% uptime and reducing server overload incidents by 60% through strategic backend optimizations. Previously, at Agent Mushroom, I engineered an AI-driven Chrome plugin integrating LLMs to ensure pixel-perfect design implementation, while at Ymir Labs, I contributed to architectural decisions that supported a successful 600M NOK fundraising round for Pitch40.\n\nI thrive in startup environments where I can leverage my skills in AWS, microservices, and real-time systems to drive product growth and efficiency. I am particularly drawn to [Company Name]'s mission to [mention specific company mission or project], and I am confident that my experience in building scalable, high-performance applications aligns well with your goals.\n\nThank you for considering my application. I look forward to the possibility of discussing how I can contribute to your team.\n\nSincerely,\nPraveen Kumar Singh",
+    "interview_highlights": [
+      "Contributed to the development of Pitch40, an Invest Tech platform, which successfully raised 600M NOK, by building scalable web and mobile features using Next.js and Flutter.",
+      "Reduced server overload incidents by 60% and enhanced platform security at Idbook Hotels by implementing rate-limiting and throttling mechanisms in the Django backend.",
+      "Engineered an AI-driven visual diff engine with 95% detection accuracy at Agent Mushroom, integrating Hugging Face LLMs and Google Gemini API to automate design-to-code consistency checks.",
+      "Decreased development team effort by 50% at Ymir Labs by creating a reusable component library using Storybook, accelerating feature delivery for the Aeme EdTech platform.",
+      "Achieved 99.9% system uptime and resolved 30+ production-level bugs across frontend and backend stacks, significantly improving reliability for customer-facing booking modules."
+    ],
+    "remote_preference": true,
+    "relocation_willingness": "maybe",
+    "notice_period": "not_specified",
+    "job_preferences": {
+      "preferred_industries": [
+        "EdTech",
+        "FinTech/InvestTech",
+        "Travel/Hospitality Tech",
+        "AI/SaaS"
+      ],
+      "preferred_company_size": "startup",
+      "work_type": "full-time",
+      "avoid_roles": [
+        "Purely Maintenance Roles",
+        "Non-Technical Project Management"
+      ]
+    }
+  },
+  "metadata": {
+    "source_file": "My_CV.pdf",
+    "parsed_at": "2026-04-02T18:40:07.125790",
+    "cv_text_length": 4712
+  }
+}
