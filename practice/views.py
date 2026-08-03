@@ -22,17 +22,15 @@ def MJobs():
     result = []
 
     for job in requiredSkill:
-        newl=job.s
+        job.split(",")
 
         mSkills(
             skillProfile["skills"],
-            requiredSkill["tagsAndSkills"]
+            job["tagsAndSkills"]
         )
-
         result.append({
             "job title" : job["title"]
         })
-
     for res in result:
         print(res)
 
