@@ -6,3 +6,4 @@ class math:
         return a+b
 result = math.add(1,2)
 print(result)
+'''In this example, the add meathod is a static meathod of the Math class. It takes two parameters a and b and returns their sum. The meathod can be called on the class itself, without the need to create an instance of class. '''
