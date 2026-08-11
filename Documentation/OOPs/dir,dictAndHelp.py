@@ -7,3 +7,12 @@ x = [1,2,3]
 dir(x)
 ['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__','__getattribute__','__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__','__init__']
 
+'''The __dict__ attribute:
+__dict__: the __dict__ attribute returns a dictionary representation of an object's attributes. It is a useful tool for introspection. Example:'''
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p = person("Ayush", 18)
+print(p.__dict__)
