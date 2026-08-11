@@ -16,3 +16,8 @@ class person:
 
 p = person("Ayush", 18)
 print(p.__dict__)
+
+'''The help() meathod:
+help(): The help() function is used to get help documentation for an object, including a description of its attributes and meathods.'''
+help(str)
+
