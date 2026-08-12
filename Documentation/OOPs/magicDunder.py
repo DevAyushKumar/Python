@@ -15,4 +15,4 @@ The len meathod is used to get the length of an object. This is useful when you 
 __call__ method:
 The call method is used to make an object callable, meaning that you can pass it as a parameter to a function and it will be executed when the function is called. This is an incredibly powerful tool that allows you to ceate objects that behave like functions.
 
-'''
+These are just a few of the many magic meathods available in Python. They are incredibly powerful tools that allow you to customize the behaviour of your objects, and can make your code much cleaner and easier to understand. So if you're looking for a way to take your Python code to the next level, take some time to learn about these magic meathods.'''
