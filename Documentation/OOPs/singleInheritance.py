@@ -5,5 +5,5 @@ Synatx:
 The synatx for single inheritance in Python is straightforward and easy to understand. To create a new class that inherits from a parent class, simply specify the parent class in the class defination, inside the parentheses, like this'''
 class Childclass(parentClass):
     def __init__(self):
-        return pass
+        pass
 
