@@ -28,4 +28,30 @@ Tail: The final node whose next reference points to null (or None).
 └──────────────┘     └──────────────┘     └──────────────┘
   (Head Node)                               (Tail Node)
   
+2. Node Implementation & Counting Traversal
+Java Implementation
+Java
+public class Node {
+    int data;
+    Node next;
+
+    public Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+public class LinkedListUtils {
+    // Traverse and count nodes: Time O(n), Space O(1)
+    public static int countNodes(Node head) {
+        int count = 0;
+        Node current = head;
+        while (current != null) {
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+}
+
 '''
