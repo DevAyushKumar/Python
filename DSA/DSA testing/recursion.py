@@ -13,3 +13,11 @@ def rece(nume):
         return 1
 
 print(rece(4))
+
+def recurring(number):
+    if number > 1:
+        return number * recurring(number - 1)
+    else:
+        return 1
+
+print(recurring(4))
