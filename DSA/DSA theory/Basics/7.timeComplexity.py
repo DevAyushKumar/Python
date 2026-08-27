@@ -109,7 +109,4 @@ Correct Big O Complexity: O(a * b) or O(n * m).
 - Definition: The amount of additional working memory (RAM) an algorithm allocates relative to input size n.
 - Auxiliary Space: Strict measure of temporary memory created during algorithm execution (excludes input data size).
 
-Examples:
-- Single accumulator variable (total = 0): O(1) Space.
-- Creating a brand-new copy array of size n: O(n) Space.
-- Recursion depth of n stack frames: O(n) Space.'''
+'''
