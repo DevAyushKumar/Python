@@ -1,8 +1,4 @@
-'''# Comprehensive Notes: Introduction to Trees (Data Structures & Algorithms #9)
-
-Source: CS Dojo (Instructor: YK)
-Video Link: https://www.youtube.com/watch?v=1-l_UOFi1Xw
-
+'''Introduction to Trees (Data Structures & Algorithms #9)
 ================================================================================
 1. WHAT IS A TREE DATA STRUCTURE?
 ================================================================================
