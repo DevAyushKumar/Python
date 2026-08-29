@@ -10,7 +10,7 @@ def search(arr, target):
         elif target <= arr[mid]:
             right = mid - 1
         else :
-            left = mid - 1
+            left = mid + 1
     return -1
 
 a = int(input("Enter the number to be searched: "))
