@@ -1,8 +1,4 @@
-'''# Comprehensive Notes: Introduction to Binary Search (Data Structures & Algorithms #10)
-
-Source: CS Dojo (Instructor: YK)
-Video Link: https://www.youtube.com/watch?v=6ysjqCUv3K4
-
+'''Introduction to Binary Search
 ================================================================================
 1. PROBLEM STATEMENT & MOTIVATION
 ================================================================================
