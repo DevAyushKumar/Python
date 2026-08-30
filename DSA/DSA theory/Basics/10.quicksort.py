@@ -1,8 +1,4 @@
-'''# Comprehensive Notes: A Complete Overview of Quicksort (Data Structures & Algorithms #11)
-
-Source: CS Dojo (Instructor: YK)
-Video Link: https://www.youtube.com/watch?v=0SkOjNaO1XY
-
+'''A Complete Overview of Quicksort
 ================================================================================
 1. OVERVIEW & DIVIDE-AND-CONQUER STRATEGY
 ================================================================================
