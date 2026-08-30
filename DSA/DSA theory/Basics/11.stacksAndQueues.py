@@ -1,8 +1,4 @@
-'''# Comprehensive Notes: Introduction to Stacks, Queues, and Deques (Data Structures & Algorithms #12)
-
-Source: CS Dojo (Instructor: YK)
-Video Link: https://www.youtube.com/watch?v=A3ZUpyrnCbM
-
+'''Introduction to Stacks, Queues, and Deques
 ================================================================================
 1. STACK DATA STRUCTURE
 ================================================================================
