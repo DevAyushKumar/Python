@@ -1,8 +1,4 @@
-# Comprehensive Notes: Python FastAPI Tutorial (Part 2) - HTML Frontend for Your API: Jinja2 Templates
-
-Source: Corey Schafer
-Video Link: https://www.youtube.com/watch?v=G4NIB9Rx9Qs
-
+# HTML Frontend for Your API: Jinja2 Templates
 ================================================================================
 1. OVERVIEW & MOTIVATION
 ================================================================================
