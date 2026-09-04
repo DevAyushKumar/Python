@@ -1,8 +1,4 @@
-# Comprehensive Notes: Python FastAPI Tutorial (Part 3) - Path Parameters, Validation, and Error Handling
-
-Source: Corey Schafer
-Video Link: https://www.youtube.com/watch?v=WRjXIA5pMtk
-
+# Path Parameters, Validation, and Error Handling
 ================================================================================
 1. OVERVIEW & MOTIVATION
 ================================================================================
