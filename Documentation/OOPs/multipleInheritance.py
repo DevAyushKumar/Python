@@ -3,7 +3,8 @@ Multiple inheritance is a powerful feature in object-oriented programming that a
 
 Syntax:
 In Python, multiple inheritances is implemented by specifying multiple parent in a class defination, seperated by commas.'''
-class childclass(parentClass, ParentClass1,ParentClass2, ParentClasss3):
+'''class childclass(parentClass, ParentClass1,ParentClass2, ParentClasss3):
     def __init__(self):
         pass
+'''
 '''In this example, the ChildClass inherits attributes and meathods from all these parent classess: ParentClass, ParentClass1, ParentClass2 and parentClass3.'''
