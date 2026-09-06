@@ -33,4 +33,9 @@ class dog(animal):
 class GoldenRetriver(dog):
     def __init__(self, name, colour):
         dog.__init__(self, name, breed="golden retriver")
-        
+        self.colour = colour
+
+    def show_details(self):
+        dog.show_details(self)
+        print(f"colour {self.colour}")
+
