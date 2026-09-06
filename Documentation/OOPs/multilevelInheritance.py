@@ -39,3 +39,5 @@ class GoldenRetriver(dog):
         dog.show_details(self)
         print(f"colour {self.colour}")
 
+o = GoldenRetriver("bob", "brown")
+o.show_details()
