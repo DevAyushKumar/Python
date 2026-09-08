@@ -6,25 +6,42 @@ In Python, hybrid inheritance can be impplemented by creating a class hiearchy. 
 Syntax:
 The syntax for implementing Hybrid Inheritance in Python in the same as for implementing Single inheritance, Multiple Inheritance or Hierarchical Inheritance.
 '''
-class BaseClass:
-    pass
 
-class DerivedClass1(BaseClass):
-    pass
-
-class DerivedClass2(DerivedClass1):
-    pass
-
-class DerivedClass3(DerivedClass1, DerivedClass2):
-    pass
-
-'''Hierarchical Inheritance
-Hierarchical Inheritance is a type of inheritance in Object-oriented programming where multiple subclass inherit from a single base class. In other words, a single base class acts as a parent class for multiple subclass. This is a way of establishing relationships between classes int a hierarchical manner.'''
-
-class Animal:
+class human:
     def __init__(self, name):
         self.name = name
 
     def show_details(self):
         print(f"name {self.name}")
-    
+        print(f"age {self.age}")
+
+class person(human):
+    def __inti__(self, name, age, address):
+        super().__init__(name, age)
+        self.address = address
+
+    def show_details(self):
+        super().show_details()
+        print(f"address: {self.address}")
+
+class program:
+    def __init__(self, program_name, duration):
+        self.program_name = program_name
+        self.duration = duration
+
+    def show_program(self):
+        print(f"program: {self.program_name} ({self.duration} years)")
+
+class student(person):
+    def __init__(self, name, age, address, program):
+        super().__init__(name, age, address)
+        self.program = program
+
+    def show_details(self):
+        super().show_details()
+        self.program.show_program()
+
+degree = program("computer science", 4)
+student = student("john Dee", 22, "221B baker St", degree)
+student.show_details()
+
