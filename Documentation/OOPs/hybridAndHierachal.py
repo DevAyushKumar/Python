@@ -45,3 +45,36 @@ degree = program("computer science", 4)
 student = student("john Dee", 22, "221B baker St", degree)
 student.show_details()
 
+'''Hierarchical Inheritance
+Hierarchical Inheritance is a type of inheritance in Object-oriented programming where multiple subclass inherit from a single base class. In other words, a single base class acts as a parent class for multiple subclass. This is a way of establishing relationships between classes int a hierarchical manner.'''
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def show_details(self):
+        print(f"Name: {self.name}")
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+
+    def show_details(self):
+        super().show_details()
+        print(f"Species: Dog | Breed: {self.breed}")
+
+class Cat(Animal):
+    def __init__(self, name, color):
+        super().__init__(name)
+        self.color = color
+
+    def show_details(self):
+        super().show_details()
+        print(f"Species: Cat | Color: {self.color}")
+
+dog = Dog("Buddy", "Golden Retriever")
+cat = Cat("Luna", "White")
+
+dog.show_details()
+cat.show_details()
