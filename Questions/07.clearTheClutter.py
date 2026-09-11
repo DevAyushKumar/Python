@@ -26,3 +26,13 @@ def clear_clutter(folder_path, extension):
 
 # Call the function
 clear_clutter("Questions/clutter", ".png")
+
+# another meathod
+files = os.listdir("clutter")
+i=1
+for file in files:
+    if file.endswith(".png"):
+        print(file)
+        os.rename(f"clutter/{file}", f"clutter/{i}.png")
+        i += 1
+        
