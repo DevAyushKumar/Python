@@ -21,4 +21,10 @@ def usingfor():
         print(i)
 
 init = time.time()
+
+
 usingfor()
+t1 = time.time() - init
+usingwhile()
+print(time.time() - init)
+print(t1)
