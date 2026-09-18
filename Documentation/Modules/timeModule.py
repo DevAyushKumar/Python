@@ -22,4 +22,3 @@ def usingfor():
 
 init = time.time()
 usingfor()
-print(time.time() = init)
