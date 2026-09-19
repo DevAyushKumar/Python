@@ -28,3 +28,10 @@ t1 = time.time() - init
 usingwhile()
 print(time.time() - init)
 print(t1)
+
+'''time.sleep():
+The time.sleep() function suspends the execution of the current thread for a specified number of seconds. This function can be used to pause the program for a cretain period of time, allowing other parts of the program to run or to synchronize the execution of multiple threads.'''
+
+print("start", time.time())
+time.sleep(2)
+print("end", time.time())
