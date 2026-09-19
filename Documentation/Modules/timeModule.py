@@ -35,3 +35,13 @@ The time.sleep() function suspends the execution of the current thread for a spe
 print("start", time.time())
 time.sleep(2)
 print("end", time.time())
+
+'''time.strftime():
+The time.strftime() function formets a time value as a string, based on a specific format. This function is particularly useful for formatting dates and times in the human-readable format, such for display in the GUI, a long file or a report.'''
+
+t = time.localtime()
+formatted_time = time.strftime("%Y-%m-%d %H:%M:%S",t)
+print(formatted_time)
+
+'''As you can see, the function time.strftime() formates the current time (obtaining time using time.localtime()) as a string, using a specific format. The format string contains codes that represent different parts of the time value, such as the year, the month, the day, the hour, the minute and the second.
+'''
