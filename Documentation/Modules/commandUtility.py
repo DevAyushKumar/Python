@@ -6,4 +6,5 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("args1")
+parser.add_argument("url", help = "url of the file download")
+parser.add_argument("output", help = "by which name do u want")
