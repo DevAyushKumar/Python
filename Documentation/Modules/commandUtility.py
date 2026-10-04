@@ -17,3 +17,12 @@ print(args.output)
 '''Adding optional arguments:
 The following example shows how to add optional arguments in python'''
 
+#syntax
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-o", "--optional", help= "description of optional argument", default= None)
+args = parser.parse_args()
+
+print(args.optional)
