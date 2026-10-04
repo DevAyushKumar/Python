@@ -13,3 +13,7 @@ args = parser.parse_args()
 
 print(args.url)
 print(args.output)
+
+'''Adding optional arguments:
+The following example shows how to add optional arguments in python'''
+
