@@ -29,3 +29,13 @@ print(args.optional)
 
 '''Adding arguments with type:
 The following example shows how to add an argument with a specific type'''
+
+#syntax
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-n", type=int, help="description of integer argument")
+
+args = parser.parse_args()
+print(args.n)
