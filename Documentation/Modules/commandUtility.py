@@ -26,3 +26,6 @@ parser.add_argument("-o", "--optional", help= "description of optional argument"
 args = parser.parse_args()
 
 print(args.optional)
+
+'''Adding arguments with type:
+The following example shows how to add an argument with a specific type'''
